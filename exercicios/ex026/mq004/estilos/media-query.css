@@ -14,9 +14,11 @@ Veja anotações da aula com os valores atualizados!
 */
 
 @media print { /* IMPRESSÃO */
+
     * {
         font-family: 'Courier New', Courier, monospace;
     }
+    
     body {
         background-image: url(../imagens/back-print.jpg);
     }
