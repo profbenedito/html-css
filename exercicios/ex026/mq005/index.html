@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Cori Bush loses Missouri House primary to Wesley Bell</h2>
+            <p>Wesley Bell is projected to win the Democratic primary in Missouri’s 1st Congressional District, according to the Associated Press. In an upset, he defeated Rep. Cori Bush, who was elected to the House in 2020. Bell — who was backed by a powerful pro-Israel lobbying group — advances to the general election.</p>
+
+            <p>While the vote in Bush’s primary was among the most hotly contested on Tuesday, it was one in a slew of House, Senate and gubernatorial races playing out in Missouri, Michigan and Washington. In 2021, Bush became the district’s first Black congresswoman after defeating Rep. William Lacy Clay, a centrist Democrat who had held the office for two decades.</p>
+
+            <p>Her opponent, Bell, was backed by the American Israel Public Affairs Committee (AIPAC), one of Washington’s most powerful lobbying forces, and he headed into the primary’s home stretch with a sizable monetary advantage. By the end of June, Bell had four times as much cash on hand as Bush. Outside groups — mostly the pro-Israel lobby, opposed to her pro-Palestinian views — spent more than $12 million in ads that attacked Bush and supported Bell, according to Washington nonprofit OpenSecrets.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
